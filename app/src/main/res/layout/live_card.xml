@@ -16,11 +16,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/imageView"
-            android:layout_alignParentTop="true"
             android:layout_alignParentStart="true"
+            android:src="@drawable/Holger"
             android:layout_alignParentBottom="true"
             android:layout_alignParentEnd="true"
-            android:src="@drawable/download" />
+            android:layout_alignParentTop="true" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -44,15 +44,15 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="LOTBKF"
             android:id="@+id/lotbkf"
+            android:textColor="#ffff0836"
             android:layout_alignParentTop="true"
-            android:layout_alignParentStart="true"
-            android:textColor="#ffff0836" />
+            android:layout_alignParentStart="true" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Buy an iPhone they said, comes with a map they said..."
+            android:text="Missing person - Holger Kaufmann - Last seen 441 Murray Street Perth"
             android:id="@+id/textView"
             android:layout_below="@+id/lotbkf"
             android:layout_alignParentStart="true"
